@@ -1,0 +1,76 @@
+body{
+    background-color: #eac48b;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 460px;
+    width: 220px;
+    background-color: #4a4135;
+}
+.upper{
+    border: 10px solid #636361;
+    height: 200px;
+    width: 180px;
+}
+.timerShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #108A94;
+    font-size: 45px;
+    margin-top: 40%;
+}
+.timerShow span{
+    
+}
+.sessionDiv{
+    margin: 10px 0px;
+}
+.session{
+    color: #d0cfcf;
+    font-size: 30px;
+}
+.sessions{
+    color: #d0cfcf;
+}
+.horizontalLine{
+    border: 1px dotted white;
+    width: 210px;
+}
+.sessionArea{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 15px;
+}
+.sessionMin,.breakMin{
+    color: #108A94;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 15px;
+}
+.buttons button{
+    background-color: #1c1815;
+    color: #d0cfcf;
+    font-size: 20px;
+}
+.buttonSmall{
+    background-color: #1c1815;
+    color: #d0cfcf;
+    font-size: 15px;
+}

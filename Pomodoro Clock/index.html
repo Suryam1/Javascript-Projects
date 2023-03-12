@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="upper">
+            <div class="timerShow">
+                <span class="min">00</span> : <span class="sec">00</span>
+            </div>
+        </div>
+        <div class="sessionDiv">
+            <span class="session">Session</span><span class="session" id="sessionCount"> 1</span>
+        </div>
+        <div class="horizontalLine"></div>
+        <div class="sessionArea">
+            <div class="sessionTime">
+                <p class="sessions">session time</p>
+                <span class="sessionMin">00</span><span class="sessionMin">  Min</span>
+                <br>
+                <button class="buttonSmall" id="sessionTimeDecrease">-</button>
+                <button class="buttonSmall" id="sessionTimeIncrease">+</button>
+            </div>
+            <div class="breakTime">
+                <p class="sessions">break time</p>
+                <span class="breakMin">00</span><span class="sessionMin">  Min</span>
+                <br>
+                <button class="buttonSmall" id="breakTimeDecrease">-</button>
+                <button class="buttonSmall" id="breakTimeIncrease">+</button>
+            </div>
+        </div>
+        <div class="horizontalLine"></div>
+        <div class="buttons">
+            <button class="startPause">Start</button>
+            <button class="reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
