@@ -1,0 +1,42 @@
+.color-red{
+    color: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.red{
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    word-wrap: break-word;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 150px;
+    margin: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align: center;
+    
+}
+.account-icon{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+}
+img{
+    width: 10px;
+    height: 10px;
+}

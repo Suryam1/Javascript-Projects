@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first_name{
+            width: 99;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Job Application With Resume Upload</h3>
+    <h4>Contact Information</h4>
+
+    <form>
+    <table>
+            <tr>
+                <td><label for="first_name">First Name *</label></td>
+                <td><label for="last_name">Last Name *</label></td>
+            </tr>
+            <tr>
+                <td><input name="first" id="first_name" required></td>
+                <td><input name="last" id="last_name" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="email">Email *</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="email" name="email" id="email" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="number">Phone *</label></td>
+            </tr>
+            <tr>
+                <td><input type="number" name="number" id="number" required></td>
+            </tr>
+            <tr>
+                <th>Position</th>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="position">Position you are applying for</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="position" id="position"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="file">Resume Upload</label></td>
+            </tr>
+            <tr>
+                <td><input type="file" accept=".pdf , .docx" id="file"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="portfolio">Portfolio Website</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="portfolio" id="portfolio"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="salary">Salary Requirements</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="salary" id="salary"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="position">Position you are applying for</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="position" id="position"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="date">When can you start?</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="relocate">Are you ready to relocate?</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" value="Yes" name="relocate" id="relocate">Yes</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" value="No" name="relocate" >No</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" value="Not Sure" name="relocate" >Not Sure</td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="company">Last company you worked for</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="company" id="company"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="comments">Comments</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea rows="10" cols="65">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+    </table>
+</form>
+</body>
+</html>

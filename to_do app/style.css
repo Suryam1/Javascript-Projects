@@ -1,0 +1,59 @@
+#main-div{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content:center
+}
+#task-list-div{
+    border: 2px solid lightgrey;
+    width: 50%;
+    min-height: 500px;
+    max-height: fit-content;
+    background-color: lightgrey;
+}
+#input-area-div{
+    /* border: 2px solid black; */
+    width: 50%;
+}
+#input-area-div form textarea{
+    height: 500px;
+    width: 98%;
+    font-size: 30px;
+}
+#task-list{
+    display: flex;
+    flex-direction: column;
+    /* background-color:aliceblue; */
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+.task-list-styles{
+    border-bottom: 2px solid grey;
+    border-radius: 1%;
+    display: flex;
+}
+.task-list-styles{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-size: 25px;
+    margin: 5px;
+    word-wrap: break-word;
+    /* margin-right: 75%; */
+    justify-content: space-between;
+}
+.span-styles{
+    max-width: 500px;
+}
+.all-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 100px;
+}
+.visible{
+    border: 1px solid black;
+    position: relative;
+    top: -45%;
+}

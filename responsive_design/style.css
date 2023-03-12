@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.nav-list{
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: grey;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.rightNav{
+    /* background-color: aqua; */
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url("bg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+.box-main{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.firstHalf{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 80%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 41px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    /* font-size: 20px; */
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.secLeft{
+    height: 500px;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.sectionSubTag{
+
+}
+.imgFluid{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}

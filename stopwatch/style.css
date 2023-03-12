@@ -1,0 +1,53 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showTime{
+    color: #df6e3c;
+    width: 70vh;
+    height: 20vh;
+    font-size: 15vh;
+    margin-top: 5% ;
+    margin-left: 7.5%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    min-width: 50vh;
+}
+.startStopButton ,.lapResetButton{
+    background: transparent;
+    color: white;
+    background-color: #353535;
+    min-width: 70px;
+    border-radius: 50%;
+    min-height: 70px;
+    margin-top: 10%;
+}
+.bgRed{
+    background-color: #351614;
+    color: #b22923;
+
+}
+.lapItem{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #4b4b4b;
+    width: 75vh;
+    padding: 5%;
+}
+.lapName{
+    color: #4b4b4b;
+}

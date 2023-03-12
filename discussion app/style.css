@@ -1,0 +1,87 @@
+.header{
+    background-color: #008080;
+}
+.header .main_heading{
+    color: #fcfef7;
+}
+li{
+    list-style: none;
+}
+.main_section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly
+}
+.main_section .left_panel{
+    display: flex;
+    flex-direction: column;
+    border-right:2px solid #dadada;
+}
+.left_panel .add_question_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width:100vh;
+    border-bottom:2px solid #dadada;
+    padding-bottom: 30px;
+}
+.new_question_button{
+    background-color: #0069d9;
+    color: #fcfef7;
+}
+.left_panel .questions_section{
+    margin: 0px;
+ background-color: #f5f5f5;
+ min-height: 100vh;
+ max-height: fit-content;
+ list-style: none;
+}
+.quest{
+    border-bottom: 2px solid #ededed;
+    padding: 0px;
+}
+.quest .quest_heading{
+    color: #495e6e;
+}
+.quest .quest_discription{
+    color: #4c5363;
+}
+
+.right_panel .right_main_heading{
+    margin: 8px 0px;
+}
+.right_panel .right_main_text{
+    margin: 8px 0px;
+}
+.right_panel .subject_field{
+    margin: 15px 0px;
+}
+.submit_button_right_div{
+    text-align: right;
+}
+
+
+.text1{
+    margin: 10px;
+}
+.textarea1{
+    margin: 10px;
+}
+.display_none{
+    display: none;
+}
+
+.response_page_question{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+ background-color: #f5f5f5;
+ min-height: fit-content;
+ max-height: fit-content;
+ list-style: none;
+}
+.button_divs{
+    margin-top: 40px;
+    margin-left: 40px;
+}
