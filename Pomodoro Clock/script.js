@@ -117,10 +117,10 @@ startPauseButton.addEventListener("click",function(){
 
 resetButton.addEventListener("click",function(){
     clearTimeout(timeout);
-    sessionTimeDecrease.setAttribute("disabled","false");
-    sessionTimeIncrease.setAttribute("disabled","false");
-    breakTimeDecrease.setAttribute("disabled","false");
-    breakTimeIncrease.setAttribute("disabled","false");
+    sessionTimeDecrease.removeAttribute("disabled");
+    sessionTimeIncrease.removeAttribute("disabled");
+    breakTimeDecrease.removeAttribute("disabled");
+    breakTimeIncrease.removeAttribute("disabled");
     startPauseButton.innerText="Start";
     min.innerText="00";
     sec.innerText="00";

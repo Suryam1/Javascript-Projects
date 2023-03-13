@@ -10,6 +10,9 @@ body{
     height: 460px;
     width: 220px;
     background-color: #4a4135;
+    position: absolute;
+    left: 45%;
+    top: 18%;
 }
 .upper{
     border: 10px solid #636361;
