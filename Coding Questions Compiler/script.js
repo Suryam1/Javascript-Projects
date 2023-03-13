@@ -76,8 +76,10 @@ function getResultFromAPI(){
 
 
 function sendDataToAPI(){
+    selectedLanguage=languageSelectField.value
     data.code=writingArea.value;
     data.langId=selectedLanguage;
+    console.log(data);
     let sendingObject=new XMLHttpRequest();
     let stringData=JSON.stringify(data);
     sendingObject.open("POST", 'https://codequotient.com/api/executeCode');
